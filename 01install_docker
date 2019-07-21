@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# install docker
+curl https://get.docker.com | sudo bash
+
+# set user docker privileges to run without prefixing "sudo"
+sudo usermod -aG docker $(whoami)
+
+# read -p "message" username
+# read -p "message" email
+# check if applied
+# docker login --username=*yourusername* --email=*euremail*
+# if it ran continue
+
+echo "*  *  *  *  *  *  *  *"
+echo "Shell needs a reset!"
+echo "*  *  *  *  *  *  *  *"
+echo "You'll have to do it manually"
+echo "*  *  *  *  *  *  *  *"
+echo
+read -p "Press anything to continue!"
+
+# exit 0
