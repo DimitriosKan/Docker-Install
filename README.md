@@ -4,3 +4,6 @@
 2] Restart shell
 3] Run./02
 4] Profit
+
+
+Use Terraform branch if using scripts in Terraform setup
