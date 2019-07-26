@@ -4,3 +4,5 @@
 2] Restart shell
 3] Run./02
 4] Profit
+
+Pull Terraform branch if using terraform to deploy
